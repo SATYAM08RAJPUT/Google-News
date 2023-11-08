@@ -36,15 +36,17 @@ export default class Header {
         const searchInput = document.getElementById('serchinput');
         searchInput.addEventListener('keyup', async (event) => {
             const getValue = event.target.value;
-            const apiKey = "ab7417cf813f41279abf5fb71eb2d29b";
-            const datafetch = await dataService.getData(`v2/everything?q=${getValue}&apiKey=${apiKey}`);
+            const afterserch  = this.data.articles.filter((itm) => {
+                return 
+            })
+            const datafetch = await dataService.getData('/data/news.json');
             this.renerNews(datafetch.articles);
         })
     }
 
     async init(){
         // const apiKey = "ab7417cf813f41279abf5fb71eb2d29b";
-        const datafetch = await dataService.getData()
+        const datafetch = await dataService.getData("/data/news.json")
         this.data = datafetch
         console.log(datafetch)
         this.renderData()

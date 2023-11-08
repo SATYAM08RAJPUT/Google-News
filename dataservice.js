@@ -1,5 +1,5 @@
 const dataService = (function() {
-    const apiUrl = 'https://newsapi.org/';
+    const apiUrl = '';
     console.log(apiUrl)
     function fetchData(url,method,data){
         return  fetch(url,{
