@@ -43,8 +43,8 @@ export default class Header {
     }
 
     async init(){
-        const apiKey = "ab7417cf813f41279abf5fb71eb2d29b";
-        const datafetch = await dataService.getData(`v2/everything?q=india&apiKey=${apiKey}`)
+        // const apiKey = "ab7417cf813f41279abf5fb71eb2d29b";
+        const datafetch = await dataService.getData()
         this.data = datafetch
         console.log(datafetch)
         this.renderData()
