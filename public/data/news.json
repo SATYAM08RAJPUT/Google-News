@@ -1,110 +1,54 @@
 {
-    "status": "ok",
-    "totalResults": 35116,
     "articles": [
         {
-            "source": {
-                "id": "bbc-news",
-                "name": "BBC News"
-            },
             "author": "https://www.facebook.com/bbcnews",
             "title": "Kota: Stricter rules for India student hub after suicides",
             "description": "Young people from across India go to the city of Kota for tuition to help them pass entrance exams to elite colleges.",
             "url": "https://www.bbc.co.uk/news/world-asia-india-67167036",
             "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/B5AD/production/_131290564_97e8e352-da61-4569-b896-a756b79b27b7.jpg",
             "publishedAt": "2023-10-23T00:59:12Z",
-            "content": "Coaching centres in the northern Indian city of Kota are facing tighter regulations after a rise in the number of student suicides. BBC Hindi's Vineet Khare has been talking to pupils who have travel… [+7867 chars]"
+            "content": "Coaching centres in the northern Indian city of Kota are facing tighter regulations after a rise in the number of student suicides. BBC Hindi's Vineet Khare has been talking to pupils who have travel… [+7867 chars]",
+            "location": "Bijnor"
         },
         {
-            "source": {
-                "id": "bbc-news",
-                "name": "BBC News"
-            },
             "author": "https://www.facebook.com/bbcnews",
             "title": "Zainab Abbas: Pakistani cricket commentator leaves India after backlash",
             "description": "ICC said Zainab Abbas left India for personal reasons amid local media claims she was forced to go.",
             "url": "https://www.bbc.co.uk/news/world-asia-india-67062102",
             "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/796F/production/_131378013_gettyimages-1155300123-594x594.jpg",
             "publishedAt": "2023-10-10T06:33:23Z",
-            "content": "A Pakistani presenter covering the Cricket World Cup in India has left the country after a backlash over alleged \"derogatory\" posts on social media.\r\nZainab Abbas was part of the International Cricke… [+2660 chars]"
+            "content": "A Pakistani presenter covering the Cricket World Cup in India has left the country after a backlash over alleged \"derogatory\" posts on social media.\r\nZainab Abbas was part of the International Cricke… [+2660 chars]",
+            "location": "Noida"
         },
         {
-            "source": {
-                "id": "bbc-news",
-                "name": "BBC News"
-            },
             "author": "https://www.facebook.com/bbcnews",
             "title": "India aims to send astronaut to the Moon by 2040",
             "description": "The country's space goals also include include plans for a space station by 2035.",
             "url": "https://www.bbc.co.uk/news/world-asia-india-67142307",
             "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/AB1E/production/_131460834_gettyimages-1531892466.jpg",
             "publishedAt": "2023-10-18T04:52:05Z",
-            "content": "India aims to send an astronaut to the Moon by 2040, the government has said.\r\nThe country's space goals also include plans for a space station by 2035.\r\nPrime Minister Narendra Modi announced these … [+770 chars]"
+            "content": "India aims to send an astronaut to the Moon by 2040, the government has said.\r\nThe country's space goals also include plans for a space station by 2035.\r\nPrime Minister Narendra Modi announced these … [+770 chars]",
+            "location": "Delhi"
         },
         {
-            "source": {
-                "id": "bbc-news",
-                "name": "BBC News"
-            },
             "author": "https://www.facebook.com/bbcnews",
             "title": "Kerala attacks: India police investigate bomb blasts at prayer meet",
             "description": "A 12-year-old girl was among the three people who died after a series of explosions in Kerala state.",
             "url": "https://www.bbc.co.uk/news/world-asia-india-67259078",
             "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/77AC/production/_131563603_2023_10large_2023_10img29_oct_2023_pti10_29_2023_000043b.jpg",
             "publishedAt": "2023-10-30T05:27:48Z",
-            "content": "Police in India have opened a high-level investigation after a series of explosions killed three and injured over 50 people in the southern state of Kerala.\r\nThe blasts took place during an event by … [+2260 chars]"
+            "content": "Police in India have opened a high-level investigation after a series of explosions killed three and injured over 50 people in the southern state of Kerala.\r\nThe blasts took place during an event by … [+2260 chars]",
+            "location": "Bijnor"
         },
         {
-            "source": {
-                "id": "bbc-news",
-                "name": "BBC News"
-            },
             "author": "https://www.facebook.com/bbcnews",
             "title": "India Supreme Court declines to legalise same-sex marriage",
             "description": "The Supreme Court's refusal to legalise same-sex marriage has dashed the hopes of India's LGBTQ+ people.",
             "url": "https://www.bbc.co.uk/news/world-asia-india-65525980",
             "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/799F/production/_131453113_11df3d4aa58c0c2d2f59442270c0b183a0970ed2.jpg",
             "publishedAt": "2023-10-17T11:44:16Z",
-            "content": "India's Supreme Court has declined to legalise same-sex unions, dashing the hopes of millions of LGBTQ+ people seeking marriage equality.\r\nThe court instead accepted the government's offer to set up … [+5266 chars]"
-        },
-        {
-            "source": {
-                "id": "bbc-news",
-                "name": "BBC News"
-            },
-            "author": "https://www.facebook.com/bbcnews",
-            "title": "India v Pakistan: Battle of nerves at arch-rivals' cricket World Cup clash",
-            "description": "Millions around the world will tune in this weekend to watch cricket's most epic contest.",
-            "url": "https://www.bbc.co.uk/news/world-asia-india-67086076",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/CB83/production/_131399025_gettyimages-1243977928.jpg",
-            "publishedAt": "2023-10-13T01:28:51Z",
-            "content": "Cricket's most famous rivalry resumes as hosts India take on arch-rivals Pakistan in the ongoing World Cup in Ahmedabad.\r\nThe match on Saturday has been described as the \"blockbuster event\" of the to… [+7592 chars]"
-        },
-        {
-            "source": {
-                "id": "bbc-news",
-                "name": "BBC News"
-            },
-            "author": "https://www.facebook.com/bbcnews",
-            "title": "Same-sex hearing: The lesbian activist seeking marriage equality in India",
-            "description": "Maya Sharma doesn't believe in marriage but has petitioned India's Supreme Court to legalise same-sex union.",
-            "url": "https://www.bbc.co.uk/news/world-asia-india-67018407",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5896/production/_131387622_mayasharma.jpg",
-            "publishedAt": "2023-10-16T00:02:12Z",
-            "content": "With India's Supreme Court due to rule on legalising same-sex marriages in the coming days, Maya Sharma is waiting with trepidation for the verdict. \r\nAn LGBTQ+ activist, the 73-year-old lives with h… [+5568 chars]"
-        },
-        {
-            "source": {
-                "id": "bbc-news",
-                "name": "BBC News"
-            },
-            "author": "https://www.facebook.com/bbcnews",
-            "title": "Bishan Singh Bedi: Indian cricket legend dies aged 77",
-            "description": "One of the world's finest spin bowlers, Bishan Bedi took 1,560 first-class wickets, the highest by an Indian.",
-            "url": "https://www.bbc.co.uk/news/world-asia-india-59047519",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/EEDA/production/_121264116_gettyimages-1314629114-594x594.jpg",
-            "publishedAt": "2023-10-23T11:19:04Z",
-            "content": "Indian cricket legend Bishan Singh Bedi has died aged 77 after a prolonged illness.\r\nHe was battling age-related illnesses and had undergone a few surgeries in recent years.\r\nBedi, regarded as one of… [+5251 chars]"
+            "content": "India's Supreme Court has declined to legalise same-sex unions, dashing the hopes of millions of LGBTQ+ people seeking marriage equality.\r\nThe court instead accepted the government's offer to set up … [+5266 chars]",
+            "location": "Noida"
         }
     ]
-    }
+}

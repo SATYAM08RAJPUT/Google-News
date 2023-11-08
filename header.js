@@ -1,6 +1,5 @@
 import dataService from "./dataservice";
 
-
 export default class Header {
     constructor(data){
         this.data = data
@@ -21,11 +20,12 @@ export default class Header {
 
     renerNews(data){
         const add = `<div class="topheading">Top Stories > </div>`
-        const html = data.map((item) => {
+        const html = this.data.articles.map((item) => {
             return `<div class ="seeui">
             <img src ="${item.urlToImage}" class ="imgrender">
             <h3>${item.title}</h3>
             <h4>${item.publishedAt}</h4>
+            <h5>${item.location}</h5>
             <p class ="para"><b>Description:-</b>${item.description}</p>
             </div>`
         }).join(" ")
@@ -37,13 +37,13 @@ export default class Header {
         searchInput.addEventListener('keyup', async (event) => {
             const getValue = event.target.value;
             const afterserch  = this.data.articles.filter((itm) => {
-                return 
+                return itm.location.includes(getValue)
             })
             const datafetch = await dataService.getData('/data/news.json');
-            this.renerNews(datafetch.articles);
+            this.renerNews(afterserch);
         })
     }
-
+    
     async init(){
         // const apiKey = "ab7417cf813f41279abf5fb71eb2d29b";
         const datafetch = await dataService.getData("/data/news.json")
