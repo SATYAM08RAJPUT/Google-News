@@ -2,7 +2,8 @@ import dataService from "./dataservice";
 
 export default class Header {
     constructor(data){
-        this.data = data
+        this.data = data;
+        this.data = []
     }
 
     renderData(){
@@ -20,7 +21,7 @@ export default class Header {
 
     renerNews(data){
         const add = `<div class="topheading">Top Stories > </div>`
-        const html = this.data.articles.map((item) => {
+        const html = data.map((item) => {
             return `<div class ="seeui">
             <img src ="${item.urlToImage}" class ="imgrender">
             <h3>${item.title}</h3>
@@ -34,24 +35,24 @@ export default class Header {
 
     async eventBind(){
         const searchInput = document.getElementById('serchinput');
-        searchInput.addEventListener('keyup', async (event) => {
+        searchInput.addEventListener('keydown', async (event) => {
             const getValue = event.target.value;
+            console.log(getValue)
             const afterserch  = this.data.articles.filter((itm) => {
                 return itm.location.includes(getValue)
             })
-            const datafetch = await dataService.getData('/data/news.json');
+            console.log(afterserch)
             this.renerNews(afterserch);
         })
     }
-    
+
     async init(){
-        // const apiKey = "ab7417cf813f41279abf5fb71eb2d29b";
         const datafetch = await dataService.getData("/data/news.json")
         this.data = datafetch
         console.log(datafetch)
-        this.renderData()
+        this.renderData();
         this.renerNews(this.data.articles);
-        this.eventBind()
+        this.eventBind();
     }
 }
 const headnew = new Header();
