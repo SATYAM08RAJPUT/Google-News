@@ -2,28 +2,64 @@
   padding: 0px;
   margin: 0px;
 }
-.logo{
-  width: 10%;
+body{
+  background-color: #f6f8fc;
 }
-input{
-  width: 45%;
-  height: 7vh;
-  margin-left: 3%;
-  padding: 0.5%;
-  background-color: #f1f3f4;
-  border-radius: 10px; 
-  border: none;
-  font-size: 20px;
-  opacity: 0.8;
-}
-
 .subhead{
   display: flex;
-  justify-content: space-between;
-  cursor: pointer;
-  padding: 0.8%;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  
   background-color: #ffffff;
-  box-shadow: 0px 0px 3px 2px rgb(165, 155, 155);
+}
+.left{
+  width: 20%;
+  margin: 1%;
+}
+.logo{
+  width: 60%;
+}
+.middle{
+  width: 60%;
+  margin: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.middle .fa{
+  margin-top: 1%;
+}
+#serchinput{
+  width: 75%;
+  height: 7vh;
+  background-color: #f1f3f4;
+  border-radius: 5px; 
+  font-size: 17px;
+  margin-left: 5%;
+  font-family: sans-serif;
+  padding: 2%;
+  opacity: 0.8;
+  border: none;
+}
+#serchinput:hover{
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0px 0px 3px 1px rgb(194, 153, 153);
+}
+.right{
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5%;
+}
+.right .fa{
+  margin-top: 3%;
+}
+.login{
+  border-radius: 50%;
+  width: 25%;
+  border: solid 1px;
 }
 #serchid{
   width: 50%;
@@ -33,72 +69,161 @@ input{
   box-shadow: 0px 0px 2px 2px rgb(235, 226, 226);
 }
 .timing{
+  display: flex;
+  flex-direction: column;
+}
+.timing p{
   margin-left: 10%;
-  margin-top: 2%;
+  margin-top: 7%;
   width: 20%;
-
   border-radius: 10px;
+  font-size: 1.75rem;
+  font-family: "Google Sans",sans-serif;
+  line-height: 1.1428571429;
+  font-weight: 400;
 }
-.timing h4{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 35px;
-}
-.topheading{
-  color: blue;
-  padding: 1%;
-  font-size: 30px;
-  font-family: sans-serif;
-}
-.seeui h3 {
-  width: 42%;
+.timing #date{
+  margin-left: 10%;
   margin-top: 1%;
-  margin-bottom: 1%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.seeui h4 {
-  opacity: 0.7;
-}
-.imgrender{
-  width: 40%;
-  border-radius: 10px;
-}
-.para{
-  margin-left: 500px;
-  position: relative;
-  top: -330px;
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-body{
-  background-color: #f6f8fc;
-}
-.login{
-  border-radius: 50%;
-  width: 3%;
-}
-.fa{
-  margin-top: 0.9%;
-}
-#date{
-  margin-top: 2%;
-  opacity: 0.7;
-  font-size: 20px;
+  font-size: 1rem;
+  font-family: "Google Sans",sans-serif;
+  line-height: 1.4285714286;
+  font-weight: 400;
+  color: rgb(95,99,104);
+  opacity: 1;
 }
 .weather{
-  width: 19%;
-  border-radius: 10px;
-  margin-left: 70%;
-  margin-top: -4%;
-  background-color: #ffffff;
-  padding: 1%;
-  box-shadow: 0px 0px 1px 3px rgb(212, 201, 180);
+  border-radius: 18px;
+  background-color:#ffffff;
+  width: 15%;
+  margin-left: 75%;
+  font-family: "Google Sans Text","Roboto",sans-serif;
+  margin-top: -70px;
+  padding: 0.5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.rightweaher{
+  font-family: "Google Sans Text","Roboto",sans-serif;
+}
+.rightweaher p{
+  font-size: 13px;
+  opacity: 0.8;
+  
+}
+.rightweaher a{
+  font-size: 13px;
+  opacity: 0.8;
+  font-family: "Google Sans Text","Roboto",sans-serif;
+  color: blue;
+}
+.rightweaher .item{
+  font-size: 13px;
+  opacity: 0.8;
+  margin-top: 5px;
+  font-size: 40px;
+  font-weight: 1000;
+  font-family: "Google Sans Text","Roboto",sans-serif;
+  color: blue;
+}
+.topheading{
+  font-size: 1.25rem;
+  font-family: "Google Sans",sans-serif;
+  line-height: 1.3;
+  font-weight: 400;
+  display: flex;
+  color: #1867DC;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1%;
+}
+.topheading .fa{
+  margin-top: 1px;
+  margin-bottom: 2px;
+  margin-left: 1%;
+}
+.line{
+  border: solid 1px;
+  opacity: 0.1;
+  margin-bottom: 2%;
 }
 #rendernews{
   margin-left: 10%;
   width: 79%;
-  border-radius: 10px;
-  margin-top: 2%;
+  border-radius: 15px;
+  margin-top: 1%;
   background-color: #ffffff;
   padding: 1%;
-  box-shadow: 0px 0px 2px 2px rgb(235, 234, 237);
 }
+.imgrender{
+  width: 32%;
+  border-radius: 5px;
+}
+.renderleft p{
+  font-weight: 400;
+    font-family: "Google Sans",sans-serif;
+    font-size: 25px;
+    color: #1f1f1f;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.location,.publice{
+  font-size: .75rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Google Sans Text","Roboto",sans-serif;
+  line-height: 1.3333333333;
+  height: 16px;
+  color: #444746;
+  margin-top: 8px;
+  width: 100%;
+}
+.linesecond{
+  border: solid 1px;
+  opacity: 0.1;
+  margin-bottom: 13px;
+  margin-top: -20%;
+}
+.para{
+  margin-left: 500px;
+  position: relative;
+  top: -360px;
+  font-family: "Google Sans Text","Roboto",sans-serif;
+}
+#news{
+  font-size: 15px;
+  font-weight: 550;
+  margin-top: 10px;
+}
+#des{
+  opacity: 0.7;
+  margin-top: 5px;
+  font-family: "Google Sans Text","Roboto",sans-serif;
+  font-size: 15px;
+}
+.express{
+  width: 4%;
+  margin-left: 440px;
+  border-radius: 5px;
+  position: relative;
+  top: -320px;
+}
+.hindutanNews{
+  width: 4%;
+  margin-left: 440px;
+  border-radius: 5px;
+  position: relative;
+  top: -330px;
+}
+.timeofNews{
+  width: 4%;
+  margin-left: 440px;
+  border-radius: 5px;
+  position: relative;
+  top: -330px;
+}
+
